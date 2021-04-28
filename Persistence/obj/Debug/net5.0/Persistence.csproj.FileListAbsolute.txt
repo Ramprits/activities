@@ -1,0 +1,15 @@
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Persistence/bin/Debug/net5.0/Persistence.deps.json
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Persistence/bin/Debug/net5.0/Persistence.dll
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Persistence/bin/Debug/net5.0/ref/Persistence.dll
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Persistence/bin/Debug/net5.0/Persistence.pdb
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Persistence/bin/Debug/net5.0/Domain.dll
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Persistence/bin/Debug/net5.0/Domain.pdb
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Persistence/obj/Debug/net5.0/Persistence.csprojAssemblyReference.cache
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Persistence/obj/Debug/net5.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Persistence/obj/Debug/net5.0/Persistence.AssemblyInfoInputs.cache
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Persistence/obj/Debug/net5.0/Persistence.AssemblyInfo.cs
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Persistence/obj/Debug/net5.0/Persistence.csproj.CoreCompileInputs.cache
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Persistence/obj/Debug/net5.0/Persistence.csproj.CopyComplete
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Persistence/obj/Debug/net5.0/Persistence.dll
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Persistence/obj/Debug/net5.0/ref/Persistence.dll
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Persistence/obj/Debug/net5.0/Persistence.pdb

@@ -1,0 +1,12 @@
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Domain/bin/Debug/net5.0/Domain.deps.json
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Domain/bin/Debug/net5.0/Domain.dll
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Domain/bin/Debug/net5.0/ref/Domain.dll
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Domain/bin/Debug/net5.0/Domain.pdb
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Domain/obj/Debug/net5.0/Domain.csprojAssemblyReference.cache
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Domain/obj/Debug/net5.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Domain/obj/Debug/net5.0/Domain.AssemblyInfoInputs.cache
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Domain/obj/Debug/net5.0/Domain.AssemblyInfo.cs
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Domain/obj/Debug/net5.0/Domain.csproj.CoreCompileInputs.cache
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Domain/obj/Debug/net5.0/Domain.dll
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Domain/obj/Debug/net5.0/ref/Domain.dll
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/Domain/obj/Debug/net5.0/Domain.pdb
