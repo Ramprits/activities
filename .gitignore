@@ -16,7 +16,7 @@ appsettings.json
 
 # production
 /build
-
+/client
 # misc
 .DS_Store
 .env.local
