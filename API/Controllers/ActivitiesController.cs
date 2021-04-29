@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Domain;
 using Microsoft.AspNetCore.Mvc;
@@ -41,9 +40,8 @@ namespace API.Controllers
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] Activity model)
         {
-            //TODO: Implement Realistic Implementation
-            await Task.Yield();
-            _logger.LogInformation(model.Title);
+            await _context.Activities.AddAsync(model);
+            await _context.SaveChangesAsync();
             return Created("", null);
         }
 
