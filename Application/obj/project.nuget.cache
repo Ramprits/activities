@@ -1,9 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "x2fbOOciiL7EEKMbqOa4U2eNU0btplGKbPaQgZZ2ogkSxdDW061EOXYQevZCzt5Fj7dpRZlQFW+DVrac3V1UvQ==",
+  "dgSpecHash": "cfp6jqotYZWDi7jCJZYbJ4/Z2KLbVRtHLlueUsORwHtLr9phkAEBO/9quBDcar5sg9QCKVabkIgGBiyRau7z/g==",
   "success": true,
   "projectFilePath": "/Users/mobileprogramming/Documents/ms-apps/activities-apps/Application/Application.csproj",
   "expectedPackageFiles": [
+    "/Users/mobileprogramming/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/mobileprogramming/.nuget/packages/microsoft.data.sqlite.core/5.0.5/microsoft.data.sqlite.core.5.0.5.nupkg.sha512",
     "/Users/mobileprogramming/.nuget/packages/microsoft.dotnet.platformabstractions/3.1.6/microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
     "/Users/mobileprogramming/.nuget/packages/microsoft.entityframeworkcore/5.0.5/microsoft.entityframeworkcore.5.0.5.nupkg.sha512",
@@ -29,7 +34,8 @@
     "/Users/mobileprogramming/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",
     "/Users/mobileprogramming/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "/Users/mobileprogramming/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
-    "/Users/mobileprogramming/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+    "/Users/mobileprogramming/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }
