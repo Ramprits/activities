@@ -6,12 +6,15 @@ import theme from "./theme/theme";
 
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import { store, StoreContext } from "./store/store";
 
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <App />
+      <StoreContext.Provider value={store}>
+        <App />
+      </StoreContext.Provider>
     </ThemeProvider>
   </React.StrictMode>,
   document.getElementById("root")

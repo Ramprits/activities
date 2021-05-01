@@ -1,10 +1,12 @@
 import { ReactElement } from "react";
 import { Router, Switch, Route, HashRouter } from "react-router-dom";
+import history from "./utils/history";
 
 import IndexPage from "./pages/Home";
 import LoginPage from "./pages/Login";
+import ActivityPage from "./pages/Activities";
 import RegisterPage from "./pages/Register";
-import history from "./utils/history";
+
 const App = (): ReactElement => {
   return (
     <Router history={history}>
@@ -12,6 +14,9 @@ const App = (): ReactElement => {
         <Switch>
           <Route exact path="/">
             <IndexPage />
+          </Route>
+          <Route exact path="/activities">
+            <ActivityPage />
           </Route>
           <Route exact path="/login">
             <LoginPage />

@@ -1,8 +1,8 @@
-/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable react/jsx-key */
+/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import React, { useState, ReactElement } from "react";
 import { makeStyles } from "@material-ui/core/styles";
+import { Link as CustomLink } from "react-router-dom";
 
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -15,7 +15,6 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
-
 import MenuIcon from "@material-ui/icons/Menu";
 import MailIcon from "@material-ui/icons/Mail";
 import NotificationsIcon from "@material-ui/icons/Notifications";
@@ -28,6 +27,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
   },
+
   appBar: {
     zIndex: theme.zIndex.drawer + 1,
   },
@@ -79,9 +79,9 @@ const Navigation = (props: any): ReactElement => {
       width: 32,
     },
     link1: "Features",
-    link2: "Enterprise",
+    link2: "Activity",
     link3: "Support",
-    link4: "ICO",
+    link4: "Contact",
     avatar:
       "https://images.unsplash.com/photo-1492633423870-43d1cd2775eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     ...props.content,
@@ -177,7 +177,12 @@ const Navigation = (props: any): ReactElement => {
               </ListItemIcon>
               <ListItemText primary={content["link1"]} />
             </ListItem>
-            <ListItem button key={content["link2"]}>
+            <ListItem
+              button
+              key={content["link2"]}
+              component={CustomLink}
+              to="/activities"
+            >
               <ListItemIcon>
                 <BusinessCenterIcon />
               </ListItemIcon>
