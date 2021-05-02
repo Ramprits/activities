@@ -1,11 +1,11 @@
 import React, { ReactElement } from "react";
 
-import SignIn2 from "../components/sign-in/SignIn";
+import SignIn from "../components/sign-in/SignIn";
 
 const Login = (): ReactElement => {
   return (
     <React.Fragment>
-      <SignIn2 content={null} />
+      <SignIn content={null} />
     </React.Fragment>
   );
 };

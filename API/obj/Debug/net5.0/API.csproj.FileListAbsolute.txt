@@ -64,3 +64,6 @@
 /Users/mobileprogramming/Documents/ms-apps/activities-apps/API/bin/Debug/net5.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
 /Users/mobileprogramming/Documents/ms-apps/activities-apps/API/bin/Debug/net5.0/AutoMapper.dll
 /Users/mobileprogramming/Documents/ms-apps/activities-apps/API/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/API/bin/Debug/net5.0/FluentValidation.dll
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/API/bin/Debug/net5.0/FluentValidation.AspNetCore.dll
+/Users/mobileprogramming/Documents/ms-apps/activities-apps/API/bin/Debug/net5.0/FluentValidation.DependencyInjectionExtensions.dll

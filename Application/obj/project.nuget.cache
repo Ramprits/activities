@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "cfp6jqotYZWDi7jCJZYbJ4/Z2KLbVRtHLlueUsORwHtLr9phkAEBO/9quBDcar5sg9QCKVabkIgGBiyRau7z/g==",
+  "dgSpecHash": "rc3T9a85OlyCTaWLmB+GUom65qBdiJTHy1WnGh9X7Olwjk1qGIc0uiy87hZ8Y3xmEZNffEDugrzXyZxK2LEp/A==",
   "success": true,
   "projectFilePath": "/Users/mobileprogramming/Documents/ms-apps/activities-apps/Application/Application.csproj",
   "expectedPackageFiles": [
     "/Users/mobileprogramming/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
     "/Users/mobileprogramming/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/fluentvalidation/10.1.0/fluentvalidation.10.1.0.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/fluentvalidation.aspnetcore/10.1.0/fluentvalidation.aspnetcore.10.1.0.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/fluentvalidation.dependencyinjectionextensions/10.1.0/fluentvalidation.dependencyinjectionextensions.10.1.0.nupkg.sha512",
     "/Users/mobileprogramming/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
     "/Users/mobileprogramming/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "/Users/mobileprogramming/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
