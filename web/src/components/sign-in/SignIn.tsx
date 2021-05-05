@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
-import React, { ReactElement } from "react";
+import { ReactElement, useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
@@ -9,6 +9,15 @@ import Typography from "@material-ui/core/Typography";
 import Link from "@material-ui/core/Link";
 import Button from "@material-ui/core/Button";
 import TextField from "@material-ui/core/TextField";
+import { useForm } from "react-hook-form";
+import { useStore } from "../../store/store";
+import { useHistory } from "react-router";
+import { observer } from "mobx-react-lite";
+
+type FormData = {
+  email: string;
+  password: string;
+};
 
 const useStyles = makeStyles((theme) => ({
   tertiaryAction: {
@@ -25,6 +34,19 @@ const useStyles = makeStyles((theme) => ({
 
 const SignInForm = (props: any): ReactElement => {
   const classes = useStyles();
+  const history = useHistory();
+  const [error, setError] = useState("");
+  const { userStore } = useStore();
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm<FormData>({
+    defaultValues: {
+      email: "rampritsahani@gmail.com",
+      password: "Pa$$w0rd",
+    },
+  });
 
   const content = {
     brand: { image: "mui-assets/img/logo-pied-piper-icon.png", width: 40 },
@@ -45,6 +67,16 @@ const SignInForm = (props: any): ReactElement => {
     brand = content.brand.text || "";
   }
 
+  const onSubmit = handleSubmit((data) =>
+    userStore
+      .login(data)
+      .then(() => {
+        setError("");
+        history.replace("/");
+      })
+      .catch(() => setError("invalid email or password"))
+  );
+
   return (
     <section>
       <Container maxWidth="xs">
@@ -58,17 +90,18 @@ const SignInForm = (props: any): ReactElement => {
             </Typography>
           </Box>
           <Box>
-            <form noValidate>
+            <form noValidate onSubmit={onSubmit}>
               <Grid container spacing={2}>
                 <Grid item xs={12}>
                   <TextField
                     variant="outlined"
                     required
                     fullWidth
-                    name="email"
-                    id="email"
+                    error={!!errors.email}
                     label="Email address"
                     autoComplete="email"
+                    helperText={!!errors.email && "Please enter email address"}
+                    {...register("email", { required: true })}
                   />
                 </Grid>
                 <Grid item xs={12}>
@@ -76,14 +109,19 @@ const SignInForm = (props: any): ReactElement => {
                     variant="outlined"
                     required
                     fullWidth
-                    name="password"
-                    id="password"
                     label="Password"
                     type="password"
-                    autoComplete="current-password"
+                    error={!!errors.password}
+                    helperText={!!errors.password && "Please enter password"}
+                    {...register("password", { required: true })}
                   />
                 </Grid>
               </Grid>
+              <Box my={2}>
+                <Typography variant="h6" align="center" color="secondary">
+                  {error && error}
+                </Typography>
+              </Box>
               <Box my={2}>
                 <Button
                   type="submit"
@@ -113,4 +151,4 @@ const SignInForm = (props: any): ReactElement => {
     </section>
   );
 };
-export default SignInForm;
+export default observer(SignInForm);

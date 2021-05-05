@@ -3,11 +3,21 @@ import { ServerError } from "../models/serverError";
 
 export default class CommonStore {
   error: ServerError | null = null;
+  appLoaded = false;
 
   constructor() {
     makeAutoObservable(this);
   }
   setServerError = (error: ServerError): void => {
     this.error = error;
+  };
+
+  setToken = (token: string | null) => {
+    if (token) {
+      window.localStorage.setItem("jwt", token);
+    }
+  };
+  setAppLoaded = () => {
+    this.appLoaded = true;
   };
 }

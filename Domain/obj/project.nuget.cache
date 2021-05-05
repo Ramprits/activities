@@ -1,8 +1,30 @@
 {
   "version": 2,
-  "dgSpecHash": "31Ot4e5IuUNRuLRLPlBPsl8in2SpRbxRB1IY0TzYCF+tBFDXF1DrPQZbjUtAe4k9hNrKGgfAvQ17I6NBIcNMvg==",
+  "dgSpecHash": "4T7NP2AKMFUF9FhqcmG/H62OuS7k1yYk7UqulGEkKm/9oQZDnea5JWnQpujF4naEai5cRF4IVmgdjrPENuslAA==",
   "success": true,
   "projectFilePath": "/Users/mobileprogramming/Documents/ms-apps/activities-apps/Domain/Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/mobileprogramming/.nuget/packages/microsoft.aspnetcore.cryptography.internal/5.0.5/microsoft.aspnetcore.cryptography.internal.5.0.5.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/5.0.5/microsoft.aspnetcore.cryptography.keyderivation.5.0.5.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/5.0.5/microsoft.aspnetcore.identity.entityframeworkcore.5.0.5.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/microsoft.entityframeworkcore/5.0.5/microsoft.entityframeworkcore.5.0.5.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/microsoft.entityframeworkcore.abstractions/5.0.5/microsoft.entityframeworkcore.abstractions.5.0.5.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/microsoft.entityframeworkcore.analyzers/5.0.5/microsoft.entityframeworkcore.analyzers.5.0.5.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/microsoft.entityframeworkcore.relational/5.0.5/microsoft.entityframeworkcore.relational.5.0.5.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/microsoft.extensions.caching.abstractions/5.0.0/microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/microsoft.extensions.caching.memory/5.0.0/microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/microsoft.extensions.configuration.abstractions/5.0.0/microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.1/microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/microsoft.extensions.identity.core/5.0.5/microsoft.extensions.identity.core.5.0.5.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/microsoft.extensions.identity.stores/5.0.5/microsoft.extensions.identity.stores.5.0.5.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/microsoft.extensions.logging/5.0.0/microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "/Users/mobileprogramming/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

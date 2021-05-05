@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import { Router, Switch, Route, HashRouter } from "react-router-dom";
+import { Router, Switch, Route, HashRouter, Redirect } from "react-router-dom";
 import history from "./utils/history";
 
 import IndexPage from "./pages/Home";
@@ -12,18 +12,11 @@ const App = (): ReactElement => {
     <Router history={history}>
       <HashRouter>
         <Switch>
-          <Route exact path="/">
-            <IndexPage />
-          </Route>
-          <Route exact path="/activities">
-            <ActivityPage />
-          </Route>
-          <Route exact path="/login">
-            <LoginPage />
-          </Route>
-          <Route exact path="/register">
-            <RegisterPage />
-          </Route>
+          <Route exact path="/home" component={IndexPage}></Route>
+          <Route exact path="/activities" component={ActivityPage}></Route>
+          <Route exact path="/login" component={LoginPage}></Route>
+          <Route exact path="/register" component={RegisterPage}></Route>
+          <Redirect from="*" to="/home" />
         </Switch>
       </HashRouter>
     </Router>

@@ -1,20 +1,19 @@
 ﻿using System;
-using MediatR;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Application.Activities;
 using Domain;
+using Microsoft.AspNetCore.Authorization;
 
 namespace API.Controllers
 {
-    [ApiController]
-    [Route("[controller]")]
+    [ApiController, AllowAnonymous]
+    [Route("api/[controller]")]
     public class ActivitiesController : BaseApiController
     {
 
         private readonly ILogger<ActivitiesController> _logger;
-        private readonly IMediator _mediator;
 
         public ActivitiesController(ILogger<ActivitiesController> logger)
         {
